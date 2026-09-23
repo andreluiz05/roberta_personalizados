@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="site/images/logo_robertaa.png" alt="Roberta Personalizados Logo" width="150"/>
+  <img src="images/logo_robertaa.png" alt="Roberta Personalizados Logo" width="150"/>
   
   # 🎁 Roberta Personalizados
   **Sua ideia, do seu jeito, para sempre.**
@@ -45,7 +45,7 @@ O projeto foi construído sob uma **Arquitetura Front-End Sênior**, priorizando
 
 ```text
 📁 roberta-personalizados/
-├── 📁 site/                  # Raiz da aplicação que vai para o ar
+├──  (Raiz do Projeto)                  # Raiz da aplicação que vai para o ar
 │   ├── 📁 css/               
 │   │   ├── style.css         # Animações globais e estilos vitais
 │   │   └── responsivo.css    # Media Queries e tipografia fluida
