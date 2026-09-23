@@ -1,0 +1,53 @@
+/* 
+ * Roberta Personalizados - Responsividade Customizada
+ * Este arquivo contém Media Queries exclusivas para adaptar a experiência em Celulares e Tablets,
+ * servindo como complemento estrutural ao CSS principal e ao framework.
+ */
+
+/* =========================================
+   Celulares Pequenos (até 480px)
+   ========================================= */
+@media (max-width: 480px) {
+  html {
+    /* Diminui a fonte raiz para evitar quebra de texto em telas estreitas */
+    font-size: 14px; 
+  }
+  
+  .marquee span {
+    margin-right: 1.5rem; /* Menos espaçamento na fita superior */
+  }
+}
+
+/* =========================================
+   Smartphones Padrões e Tablets Verticais (até 768px)
+   ========================================= */
+@media (max-width: 768px) {
+  /* Ajuste no banner principal para focar melhor a imagem no mobile */
+  .hero-bg {
+    background-position: center top;
+  }
+  
+  /* Ajuste no padding geral das sessões no mobile */
+  section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+/* =========================================
+   Tablets Horizontais e Laptops (769px a 1024px)
+   ========================================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: 15px; /* Ajuste fino de tipografia fluida */
+  }
+}
+
+/* =========================================
+   Monitores Grandes e Ultrawide (acima de 1536px)
+   ========================================= */
+@media (min-width: 1536px) {
+  html {
+    font-size: 18px; /* Aumenta a escala global para telas muito grandes */
+  }
+}
